@@ -1,11 +1,14 @@
 ## Oii! 👋 Sou a Bruna Louise  
-Neste espaço compartilho projetos, estudos e descobertas do meu caminho como desenvolvedora.  
-Sinta-se à vontade para explorar! 💡💜🚀💻💫
 
-### 🎓 Formação  
-- **Curso:** Análise e Desenvolvimento de Sistemas  
-- **Instituição:** Instituto Federal do Tocantins (IFTO)  
-- **Ano de Conclusão:** 2024  
+🎓 **Formada em Análise e Desenvolvimento de Sistemas**  
+🏫 **Instituição:** IFTO – Instituto Federal do Tocantins  
+📍 **Localização:** Araguaína - TO  
+
+💜 Apaixonada por tecnologia, curiosa por natureza e movida a desafios!  
+💻 Gosto de criar soluções com C#, .NET, PostgreSQL e tudo que envolve backend!  
+🚀 Estou sempre estudando e buscando crescer como desenvolvedora — bora compartilhar essa jornada?  
+
+Sinta-se à vontade para explorar meus projetos por aqui! 💡✨
 
 <table align="center" border="0" style="border-collapse: collapse; border-spacing: 0;">
   <tr>
