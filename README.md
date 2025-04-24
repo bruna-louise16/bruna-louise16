@@ -2,6 +2,11 @@
 Neste espaço compartilho projetos, estudos e descobertas do meu caminho como desenvolvedora.  
 Sinta-se à vontade para explorar! 💡💜🚀💻💫
 
+### 🎓 Formação  
+- **Curso:** Análise e Desenvolvimento de Sistemas  
+- **Instituição:** Instituto Federal do Tocantins (IFTO)  
+- **Ano de Conclusão:** 2024  
+
 <table align="center" border="0" style="border-collapse: collapse; border-spacing: 0;">
   <tr>
     <td style="border-width: 0;">
