@@ -84,4 +84,11 @@ Sinta-se à vontade para explorar meus projetos por aqui! 💡✨
   <a href="mailto:brunalouise16@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
+  <a href="https://www.duolingo.com/profile/BrunaLouise803" target="_blank">
+    <img src="https://img.shields.io/badge/Duolingo-%232CA43B.svg?style=for-the-badge&logo=duolingo&logoColor=white" alt="Duolingo"/>
+  </a>
+  <a href="https://orcid.org/0009-0002-8889-8937" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=ORCID&logoColor=white" alt="ORCID"/>
+  </a>
 </p>
+
