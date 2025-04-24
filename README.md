@@ -1,4 +1,4 @@
-## Olá! 👋 Sou a Bruna Louise  
+## Oii! 👋 Sou a Bruna Louise  
 Neste espaço compartilho projetos, estudos e descobertas do meu caminho como desenvolvedora.  
 Sinta-se à vontade para explorar! 💡💜🚀💻💫
 
