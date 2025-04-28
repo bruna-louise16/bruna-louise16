@@ -5,26 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minha Snake no GitHub!</title>
   <style>
-    /* Estilo Premium */
     body {
       margin: 0;
       padding: 0;
       height: 100vh;
-      background: linear-gradient(270deg, #1e1b4b, #312e81, #4f46e5, #7c3aed);
-      background-size: 800% 800%;
-      animation: gradientAnimation 12s ease infinite;
+      background: #0f0f2e;
+      overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #ffffff;
+    }
+
+    .background {
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(270deg, #1e1b4b, #312e81, #4f46e5, #7c3aed);
+      background-size: 800% 800%;
+      animation: gradientAnimation 15s ease infinite;
+      z-index: 0;
     }
 
     @keyframes gradientAnimation {
-      0% {background-position: 0% 50%;}
-      50% {background-position: 100% 50%;}
-      100% {background-position: 0% 50%;}
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     img {
@@ -34,22 +51,7 @@
       border-radius: 20px;
       box-shadow: 0 0 25px #c084fc;
       margin-bottom: 25px;
-      display: none; /* Esconde a imagem até carregar */
-    }
-
-    #loader {
-      border: 6px solid #ccc;
-      border-top: 6px solid #9333ea;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      animation: spin 1s linear infinite;
-      margin-bottom: 25px;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      background: transparent;
     }
 
     a {
@@ -62,57 +64,20 @@
       font-size: 1.1rem;
       transition: all 0.3s ease;
       box-shadow: 0 0 10px #a855f7;
-      opacity: 0; /* Esconde o botão até a imagem carregar */
     }
 
     a:hover {
       background: linear-gradient(90deg, #a855f7, #9333ea);
       box-shadow: 0 0 20px #c084fc;
     }
-
-    /* Dark mode ajustado */
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: linear-gradient(270deg, #0f0f2e, #1a174d, #2e26a3, #5b21b6);
-        background-size: 800% 800%;
-        animation: gradientAnimation 12s ease infinite;
-        color: #e5e7eb;
-      }
-
-      img {
-        border: 3px solid #8b5cf6;
-        box-shadow: 0 0 25px #7c3aed;
-      }
-
-      a {
-        background: linear-gradient(90deg, #7e22ce, #6b21a8);
-        box-shadow: 0 0 10px #8b5cf6;
-      }
-
-      a:hover {
-        background: linear-gradient(90deg, #9333ea, #7e22ce);
-        box-shadow: 0 0 20px #c084fc;
-      }
-    }
   </style>
 </head>
 <body>
-  <div id="loader"></div>
-
-  <img id="snakeImage" src="https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation">
+  <div class="background"></div>
   
-  <a id="githubLink" href="https://github.com/bruna-louise16" target="_blank">Ver meu GitHub ✨</a>
-
-  <script>
-    const snakeImage = document.getElementById('snakeImage');
-    const loader = document.getElementById('loader');
-    const githubLink = document.getElementById('githubLink');
-
-    snakeImage.onload = function() {
-      loader.style.display = 'none';
-      snakeImage.style.display = 'block';
-      githubLink.style.opacity = '1';
-    };
-  </script>
+  <div class="content">
+    <img src="https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation">
+    <a href="https://github.com/bruna-louise16" target="_blank">Ver meu GitHub ✨</a>
+  </div>
 </body>
 </html>
