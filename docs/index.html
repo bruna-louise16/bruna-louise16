@@ -2,58 +2,58 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Snake da Bruna 💜</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minha Snake no GitHub!</title>
   <style>
+    /* Fundo animado em degradê roxo/lilás */
     body {
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       height: 100vh;
-      background: linear-gradient(135deg, #c084fc, #7e22ce);
-      animation: backgroundShift 15s infinite alternate;
-      overflow: hidden;
+      background: linear-gradient(270deg, #7e22ce, #6b21a8, #581c87, #4c1d95);
+      background-size: 800% 800%;
+      animation: gradientAnimation 12s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
     }
 
-    h1 {
-      color: #f5f3ff;
-      font-family: 'Arial', sans-serif;
-      text-shadow: 2px 2px 8px #7e22ce;
-      margin-bottom: 20px;
-      font-size: 2.5rem;
+    @keyframes gradientAnimation {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
     img {
-      width: 90%;
-      max-width: 800px;
-      filter: drop-shadow(0 0 10px #c084fc);
-      animation: glow 2s ease-in-out infinite alternate;
+      max-width: 90%;
+      height: auto;
+      border: 3px solid #a855f7;
       border-radius: 20px;
+      box-shadow: 0 0 20px #c084fc;
+      margin-bottom: 20px;
     }
 
-    @keyframes glow {
-      from {
-        filter: drop-shadow(0 0 5px #c084fc);
-      }
-      to {
-        filter: drop-shadow(0 0 20px #b84de3);
-      }
+    a {
+      padding: 10px 20px;
+      background-color: #9333ea;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
     }
 
-    @keyframes backgroundShift {
-      0% {
-        background: linear-gradient(135deg, #c084fc, #7e22ce);
-      }
-      100% {
-        background: linear-gradient(135deg, #4c1d95, #2e1065);
-      }
+    a:hover {
+      background-color: #7e22ce;
     }
   </style>
 </head>
 <body>
-  <h1>Snake da Bruna 💜</h1>
-  <img src="https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
+  <img src="https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation">
+  
+  <a href="https://github.com/bruna-louise16" target="_blank">Ver meu GitHub ✨</a>
 </body>
 </html>
