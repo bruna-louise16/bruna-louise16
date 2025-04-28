@@ -5,12 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minha Snake no GitHub!</title>
   <style>
-    /* Tema Claro */
     body {
       margin: 0;
       padding: 0;
       height: 100vh;
-      background: linear-gradient(270deg, #7e22ce, #6b21a8, #581c87, #4c1d95);
+      background: linear-gradient(270deg, #8E2DE2, #A023AB, #D76DD8);
       background-size: 800% 800%;
       animation: gradientAnimation 12s ease infinite;
       display: flex;
@@ -18,7 +17,7 @@
       align-items: center;
       flex-direction: column;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #fff;
+      color: #ffffff;
     }
 
     @keyframes gradientAnimation {
@@ -30,15 +29,15 @@
     img {
       max-width: 90%;
       height: auto;
-      border: 3px solid #b84de3; /* Altere o tom de roxo para #b84de3 */
+      border: 3px solid #D76DD8;
       border-radius: 20px;
-      box-shadow: 0 0 20px #b84de3; /* Ajustado para o tom de roxo desejado */
+      box-shadow: 0 0 20px #D76DD8;
       margin-bottom: 20px;
     }
 
     a {
       padding: 10px 20px;
-      background-color: #b84de3; /* Cor do fundo do link com o tom de roxo */
+      background-color: #A023AB;
       color: white;
       text-decoration: none;
       border-radius: 8px;
@@ -47,29 +46,28 @@
     }
 
     a:hover {
-      background-color: #9333ea; /* Tom roxo mais escuro para o hover */
+      background-color: #8E2DE2;
     }
 
-    /* Tema Escuro */
     @media (prefers-color-scheme: dark) {
       body {
-        background: linear-gradient(270deg, #1e0e44, #2e1065, #3b0764, #4c1d95);
+        background: linear-gradient(270deg, #58135E, #7A1FA2, #8E2DE2);
         background-size: 800% 800%;
         animation: gradientAnimation 12s ease infinite;
         color: #e0e0e0;
       }
 
       img {
-        border: 3px solid #b84de3; /* Cor do border da imagem no modo escuro */
-        box-shadow: 0 0 20px #b84de3; /* Sombras com a cor roxa */
+        border: 3px solid #A023AB;
+        box-shadow: 0 0 20px #8E2DE2;
       }
 
       a {
-        background-color: #b84de3; /* Cor do link no modo escuro */
+        background-color: #7A1FA2;
       }
 
       a:hover {
-        background-color: #9333ea; /* Hover do link no modo escuro */
+        background-color: #A023AB;
       }
     }
   </style>
