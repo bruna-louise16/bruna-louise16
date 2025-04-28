@@ -13,8 +13,8 @@ jobs:
         with:
           github_user_name: bruna-louise16
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#b84de3&color_dots=#b84de3,#7e22ce,#581c87,#4c1d95
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#b84de3&color_dots=#9f4fc7,#7e22ce,#581c87,#4c1d95
+            dist/github-contribution-grid-snake.svg?color_snake=#b84de3&color_dots=#b84de3,#e4aef7,#9e4cb7
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#b84de3&color_dots=#b84de3,#e4aef7,#9e4cb7
           
       - name: Deploy GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
