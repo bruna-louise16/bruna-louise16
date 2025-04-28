@@ -91,5 +91,10 @@ Sinta-se à vontade para explorar meus projetos por aqui! 💡✨
     <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=ORCID&logoColor=white" alt="ORCID"/>
   </a>
 </p>
+
+##
+
 ![Snake animation](https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg)
+
+
 
