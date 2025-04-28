@@ -6,7 +6,7 @@
 
 💜 Apaixonada por tecnologia, curiosa por natureza e movida a desafios!  
 💻 Gosto de criar soluções com C#, .NET, PostgreSQL e tudo que envolve backend!  
-🚀 Estou sempre estudando e buscando crescer como desenvolvedora — bora compartilhar essa jornada?  
+🚀 Estou sempre estudando e buscando crescer como desenvolvedora.
 
 Sinta-se à vontade para explorar meus projetos por aqui! 💡✨
 
