@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
   workflow_dispatch:
 
 jobs:
@@ -13,9 +13,9 @@ jobs:
         with:
           github_user_name: bruna-louise16
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#F2A7FF&color_dots=#58135E,#6E2175,#8A2B8F,#A542CC
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#F2A7FF&color_dots=#58135E,#6E2175,#8A2B8F,#A542CC
-
+            dist/github-contribution-grid-snake.svg?color_snake=#660066&color_dots=#A542CC,#9246B5,#7D3C9E,#58135E
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#F0A3FF&color_dots=#A542CC,#9246B5,#7D3C9E,#58135E
+      
       - name: Deploy GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
