@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake da Bruna 💜</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #c084fc, #7e22ce);
+      animation: backgroundShift 15s infinite alternate;
+      overflow: hidden;
+    }
+
+    h1 {
+      color: #f5f3ff;
+      font-family: 'Arial', sans-serif;
+      text-shadow: 2px 2px 8px #7e22ce;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    img {
+      width: 90%;
+      max-width: 800px;
+      filter: drop-shadow(0 0 10px #c084fc);
+      animation: glow 2s ease-in-out infinite alternate;
+      border-radius: 20px;
+    }
+
+    @keyframes glow {
+      from {
+        filter: drop-shadow(0 0 5px #c084fc);
+      }
+      to {
+        filter: drop-shadow(0 0 20px #b84de3);
+      }
+    }
+
+    @keyframes backgroundShift {
+      0% {
+        background: linear-gradient(135deg, #c084fc, #7e22ce);
+      }
+      100% {
+        background: linear-gradient(135deg, #4c1d95, #2e1065);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Snake da Bruna 💜</h1>
+  <img src="https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
+</body>
+</html>
