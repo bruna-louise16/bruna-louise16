@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minha Snake no GitHub!</title>
   <style>
-    /* Fundo animado em degradê roxo/lilás */
+    /* Tema Claro */
     body {
       margin: 0;
       padding: 0;
@@ -48,6 +48,29 @@
 
     a:hover {
       background-color: #7e22ce;
+    }
+
+    /* Tema Escuro */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: linear-gradient(270deg, #1e0e44, #2e1065, #3b0764, #4c1d95);
+        background-size: 800% 800%;
+        animation: gradientAnimation 12s ease infinite;
+        color: #e0e0e0;
+      }
+
+      img {
+        border: 3px solid #8b5cf6;
+        box-shadow: 0 0 20px #7c3aed;
+      }
+
+      a {
+        background-color: #7e22ce;
+      }
+
+      a:hover {
+        background-color: #9333ea;
+      }
     }
   </style>
 </head>
