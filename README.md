@@ -94,7 +94,7 @@ Sinta-se à vontade para explorar meus projetos por aqui! 💡✨
 
 ##
 
-![Snake animation](https://github.com/bruna-louise16/bruna-louise16/blob/output/github-contribution-grid-snake.svg)
+
 
 
 
